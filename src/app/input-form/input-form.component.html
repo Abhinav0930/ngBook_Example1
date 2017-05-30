@@ -1,0 +1,14 @@
+<form>
+  <h3>Please enter your name and role</h3><br/>
+  <div>
+    <label for="title">Name: </label>
+    <input name="name" #name>
+  </div>
+  <div>
+    <label for="role">Role: </label>
+    <input name="role" #role>
+  </div>
+  <div>
+    <button (click)="addArticle(name,role)">submit</button>
+  </div>
+</form>
